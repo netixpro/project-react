@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@import "compass";
+
+@import "../node_modules/materialize-sass/sass/components/prefixer.scss";
+@import "../node_modules/materialize-sass/sass/components/mixins.scss";
+@import "../node_modules/materialize-sass/sass/components/color.scss";
+@import "../node_modules/materialize-sass/sass/components/variables.scss";
+@import "./custom_variables.scss";
+@import "../node_modules/materialize-sass/sass/components/normalize.scss";
+@import "../node_modules/materialize-sass/sass/components/global.scss";
+@import "../node_modules/materialize-sass/sass/components/icons-material-design.scss";
+@import "../node_modules/materialize-sass/sass/components/grid.scss";
+@import "../node_modules/materialize-sass/sass/components/navbar.scss";
+@import "../node_modules/materialize-sass/sass/components/roboto.scss";
+@import "../node_modules/materialize-sass/sass/components/typography.scss";
+@import "../node_modules/materialize-sass/sass/components/cards.scss";
+@import "../node_modules/materialize-sass/sass/components/toast.scss";
+@import "../node_modules/materialize-sass/sass/components/tabs.scss";
+@import "../node_modules/materialize-sass/sass/components/tooltip.scss";
+@import "../node_modules/materialize-sass/sass/components/buttons.scss";
+@import "../node_modules/materialize-sass/sass/components/dropdown.scss";
+@import "../node_modules/materialize-sass/sass/components/waves.scss";
+@import "../node_modules/materialize-sass/sass/components/modal.scss";
+@import "../node_modules/materialize-sass/sass/components/collapsible.scss";
+@import "../node_modules/materialize-sass/sass/components/materialbox.scss";
+@import "../node_modules/materialize-sass/sass/components/form.scss";
+@import "../node_modules/materialize-sass/sass/components/table_of_contents.scss";
+@import "../node_modules/materialize-sass/sass/components/sideNav.scss";
+@import "../node_modules/materialize-sass/sass/components/preloader.scss";
+@import "../node_modules/materialize-sass/sass/components/slider.scss";
+@import "../node_modules/materialize-sass/sass/components/date_picker/default.scss";
+@import "../node_modules/materialize-sass/sass/components/date_picker/default.date.scss";
+@import "../node_modules/materialize-sass/sass/components/date_picker/default.time.scss";
+
+@import "./component/app.scss";
+
+html, body {
+  background-color: $body-bg-color;
+  height: 100%;
+}
+
+.brand-logo {
+  font-family: 'Pacifico', cursive;
+}

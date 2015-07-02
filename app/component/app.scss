@@ -1,0 +1,71 @@
+.bg-pattern, .main-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.main-wrapper {
+  z-index: 2;
+}
+
+.center-component {
+  margin: auto;
+}
+
+.card {
+  .card-action {
+    a {
+      color: color("cyan", "darken-1");
+    }
+  }
+}
+
+.input-field {
+  i {
+    color: color("grey", "darken-2");
+  }
+}
+
+.brand-logo {
+  display: inline-block;
+  color: color('grey', 'darken-3');
+  font-weight: bold;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: color('light-blue', 'darken-4');
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    top: 0;
+    left: 0;
+  }
+  &:before {
+    @include background-image(linear-gradient(to right, color('light-blue', 'darken-4'), color('light-blue', 'darken-1')));
+  }
+  &:after {
+    background-color: #fff;
+    width: 48px;
+    height: 48px;
+    top: 6px;
+    left: 6px;
+  }
+  span {
+    font-family: 'Comic Sans', sans-serif;
+    position: relative;
+    z-index: 2;
+    line-height: 55px;
+    font-size: 30px;
+    display: block;
+    letter-spacing: -1px;
+  }
+}
